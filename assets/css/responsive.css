@@ -2,9 +2,6 @@
 	.padding-rl{
 		padding: 0 15px;
 	}
-	#header{
-		padding: 1rem 15px 0;
-	}
 	.navbar{
 		padding: 0;
 	}
@@ -17,124 +14,62 @@
 		padding: 0;
 	}
 	.main-banner__text{
-		top: 35%;
-	}
-	.main-banner__img{
-		height: 100vh;
-	}
-	.main-banner__title{
+		top: 0;
+		width: 100%;
 		padding: 0 1rem;
 	}
-	.main-banner__title p{
-		font-size: 34px;
+	.main-banner__title p, .main-banner__title span, .main-banner__title h3{
+		font-size: 2.5rem;
+		font-weight: 900;
+		line-height: 4rem
 	}
-	.servicio-items__content{
+	.boton-banner{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.btn-banner{
 		width: 100%;
-		margin: 20px 0; 
+		margin: .5rem 0;
 	}
-	.propuesta{
-		padding-top: 3rem;
+	.subtitle-general{
+		font-size: 2rem;
 	}
-	.propuesta-item__title p{
-		font-size: 34px;
-		padding-right: 0;
+	.subtitle-general::after{
+		right: 25%;
 	}
-	.propuesta-item__title{
-		margin-bottom: 80px;
-	}
-	.main-propuesta__content, .main-formacion__content{
-		grid-template-columns: 100%;
-	}
-	.propuesta-item__items{
-		padding: 0;
-	}
-	.propuesta-item__items:before, .propuesta-item__items:after{
-		display: none
-	}
-	.formacion-item__text p{
-		font-size: 34px;
-	}
-	.formacion-item__img{
-		padding-bottom: 70px;
-		border-radius: 15px 15px 0 0;
-	}
-	.formacion-item__text{
-		padding: 80px 20px 50px;
-		border-radius: 0 0 15px 15px;
-	}
-	.formacion-logo{
-		top: 41%;
+	.subtitle-general::before{
 		right: 35%;
 	}
-	.main-numeros__items{
-		width: 100%;
-		margin-bottom: 1rem;
+	.hacemos-content__text{
+		padding: 1rem;
 	}
-	.main-stratups__content{
-		flex-direction: column-reverse
-	}
-	.main-stratups__items{
-		width: 100%;
-		text-align: center;
-	}
-	.stratups-content__text p{
-		padding-right: 0;
-	}
-	.logos-content__logos{
-		width: 150px;
-		margin: .5rem;
-	}
-	.stratups-content__text{
-		padding-right: 0;
-		padding-bottom: 70px;
-	}
-	.publicidad-item__content{
-		padding: 1rem 20px;
-		height: 440px;
-		text-align: center;
-	}
-	.main-publicidad__bg{
-		height: 445px;
-	}
-	.footer-item__suscribir{
-		flex-direction: column;
-		justify-content: normal;
-	}
-	.publicidad-item__botones{
-		flex-direction: column-reverse;
-		margin-bottom: 1rem;
-	}
-	.publicidad-redes__correo{
-		margin-right: 0;
-		margin-bottom: .5rem;
-	}
-	.publicidad-botones__redes, .main-numeros__content{
+	.hacemos-content__cards{
+		padding: 0 2rem;
 		flex-direction: column;
 	}
-	.footer-item__suscribir--text{
-		text-align: center;
-		margin-bottom: 1.5rem;
+	.card-hacemos__content{
+		width: 100%;
 	}
-	.footer-item__suscribir--input{
+	.card-hacemos__img{
 		display: flex;
+		align-items: center;
 	}
-	.footer-item__suscribir--input input{
-		width: 215px;
+	.card-hacemos__text--title{
+		padding: 1rem 0;
 	}
-	.btn-footer{
-		font-size: 12px;
+	.main-agencia{
+		grid-template-columns: 100%;
+		height: 100vh;
 	}
-	.footer-item__list{
-		flex-wrap: wrap;
-	}
-	.footer-item__list--content{
-		margin-bottom: 1rem;
-		width: 50%;
-	}
-	.footer-item__list--content:nth-child(2){
-		padding-left: 3rem;
-	}
+	
 
+
+
+
+
+	.main-footer__content{
+		grid-template-columns: 100%;
+	}
 }
 
 

@@ -155,13 +155,15 @@ $('.main-nosotros__content').slick({
   ]
 });
 
-$('.main-team__slider').slick({
+$('.main-blog__content').slick({
   infinite: true,
-  slidesToShow: 4,
+  autoplay: false,
+  slidesToShow: 1,
   slidesToScroll: 1,
-  dots: false,
-  arrows: true,
-  autoplay:true,
+  dots: true,
+  arrows: false,
+  centerMode:true,
+  centerPadding:'100px',
   responsive: [{
     breakpoint: 1200,
     settings: {
@@ -175,19 +177,22 @@ $('.main-team__slider').slick({
     breakpoint: 900,
     settings: {
       slidesToShow: 2,
-      slidesToScroll: 1
+      slidesToScroll: 2,
+      arrows: false,
     }
   },
   {
-    breakpoint: 320,
+    breakpoint: 600,
     settings: {
       slidesToShow: 1,
       slidesToScroll: 1,
       dots: false,
-       autoplay:false ,
-      autoplaySpeed: 1000
+      autoplay: false,
+      autoplaySpeed: 1000,
+      arrows:false,
+      centerMode: true,
+      centerPadding: '25px',
     }
   }
   ]
 });
-
