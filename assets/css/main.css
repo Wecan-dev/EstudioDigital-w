@@ -385,6 +385,13 @@ p{
 	grid-template-columns: 50% 50%;
 	height: 60vh;
 }
+.agencia-content__video{
+	height: 100%
+}
+.agencia-content__video video{
+	height: 100%;
+	width: 100%;
+}
 .agencia-content__text{
 	background: #071c3b;
 	display: flex;
@@ -566,6 +573,7 @@ p{
 }
 .content-portafolio__items img{
 	border-radius: 10px;
+	width: 100%;
 }
 .btn-portafolio, .btn-portafolio-s{
 	position: absolute;

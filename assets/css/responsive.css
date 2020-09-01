@@ -486,6 +486,9 @@
 	.main-banner__title span, .main-banner__title h3{
 		font-size: 3.5rem;
 	}
+	.main-agencia{
+		height: 45vh;
+	}
 }
 
 
