@@ -599,6 +599,7 @@ p{
 }
 .content-aliados__items{
 	width: 20%;
+	margin: .5rem;
 }
 .content-aliados__items img{
 	width: 100%;
