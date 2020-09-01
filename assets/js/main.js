@@ -16,7 +16,8 @@ $(function () {
   'use strict'
 
   $('[data-toggle="offcanvas"]').on('click', function () {
-    $('.offcanvas-collapse').toggleClass('open')
+    $('.offcanvas-collapse').toggleClass('open');
+    $('body').toggleClass('over')
   })
 })
 
@@ -26,6 +27,7 @@ $(function () {
   $('.nav-link__mobile').on('click', function () {
     $('.offcanvas-collapse').removeClass('open')
     $('.hamburger').removeClass("is-active");
+    $('body').removeClass("over");
   })
 })
 

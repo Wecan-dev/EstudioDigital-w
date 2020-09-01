@@ -518,15 +518,15 @@ p{
 	left: 19%;
 	bottom: -5%;
 }
-.comentarios-slider__content .slick-dots li{
+.comentarios-slider__content .slick-dots li, .slider-portafolio__responsive .slick-dots li{
 	margin: 0 5px;
 }
-.comentarios-slider__content .slick-dots li.slick-active button:before{
+.comentarios-slider__content .slick-dots li.slick-active button:before, .slider-portafolio__responsive .slick-dots li.slick-active button:before{
 	background: #91c000;
 	border-radius: 50%;
 	color: transparent;
 }
-.comentarios-slider__content .slick-dots li button:before{
+.comentarios-slider__content .slick-dots li button:before, .slider-portafolio__responsive .slick-dots li button:before{
 	background: #071c3b;
 	border-radius: 50%;
 	color: transparent;
@@ -599,6 +599,9 @@ p{
 }
 .content-aliados__items{
 	width: 20%;
+}
+.content-aliados__items img{
+	width: 100%;
 }
 .subtitle-general-aliados{
 	color: #fff;
@@ -923,6 +926,9 @@ p{
 	transform: translateX(10px);
 	transition: .2s ease-in-out;
 }
+.blog-slider__img img{
+	border-radius: 5px;
+}
 .main-blog__content .slick-dots li.slick-active button:before{
 	width: 40px;
 	background: #91c000;
@@ -936,6 +942,7 @@ p{
 	background: #707070;
 	border-radius: 25px;
 	margin-left: -20px;
+	color: transparent;
 }
 .main-blog__content .slick-dots li{
 	margin: 0 15px;
@@ -1025,7 +1032,7 @@ p{
 @media (max-width: 991px) {
     .offcanvas-collapse {
       position: fixed;
-      top: 75px;
+      top: 45px;
       bottom: 0;
       left: 100%;
       width: 100%;
@@ -1037,8 +1044,11 @@ p{
       transition-duration: .3s;
       transition-property: left, visibility;
       padding-top: 25px;
+      background: #f5f5f5;
     }
-  
+  	body.over{
+  		overflow-y: hidden;
+  	}
     .offcanvas-collapse.open {
       left: 0;
       visibility: visible;
@@ -1138,7 +1148,7 @@ p{
 .hamburger--elastic .hamburger-inner::after {
     top: 20px;
     transition: transform 0.275s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    width: 15px;
+    width: 26px;
     right: 0;
 }
 
@@ -1159,6 +1169,7 @@ p{
   /** Navbar */
   .navbar-toggler:not(:disabled):not(.disabled){
     outline: none;
+    z-index: 9;
   }
   
   .navbar {
@@ -1173,6 +1184,7 @@ p{
   .navbar-nav{
   	width: 100%;
   	justify-content: flex-end;
+  	text-align: center;
   }
   
   .navbar .content {
