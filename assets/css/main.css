@@ -1068,7 +1068,7 @@ p{
 @media (max-width: 991px) {
     .offcanvas-collapse {
       position: fixed;
-      top: 45px;
+      top: 40px;
       bottom: 0;
       left: 100%;
       width: 100%;
@@ -1191,6 +1191,7 @@ p{
 .hamburger--elastic.is-active .hamburger-inner {
     transform: translate3d(0, 10px, 0) rotate(135deg);
     transition-delay: 0.075s;
+    top: -7px;
 }
 
 .hamburger--elastic.is-active .hamburger-inner::before {

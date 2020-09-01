@@ -33,6 +33,7 @@
 	}
 	.link-email a{
 		margin: 0;
+		font-size: .8rem;
 	}
 	.main-banner__text{
 		top: 10%;
@@ -349,6 +350,10 @@
 	}
 	.agencia-content__text{
 		padding: 0 2rem;
+		font-size: 1rem;
+	}
+	.agencia-content__text h3{
+		font-size: 2rem;
 	}
 	.main-comentarios__content{
 		padding-top: 8rem;
@@ -461,6 +466,9 @@
 	}
 	.main-footer__content{
 		grid-template-columns: 100%;
+	}
+	.main-agencia{
+		height: 32vh;
 	}
 }
 
