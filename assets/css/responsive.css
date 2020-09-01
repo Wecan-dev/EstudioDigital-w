@@ -35,22 +35,27 @@
 		margin: 0;
 	}
 	.main-banner__text{
-		top: 0;
+		top: 10%;
 		width: 100%;
 		padding: 0 1rem;
 	}
 	.main-banner__title p, .main-banner__title span, .main-banner__title h3{
-		font-size: 2.5rem;
+		font-size: 2rem;
 		font-weight: 900;
-		line-height: 4rem
+		line-height: 2.5rem
 	}
 	.boton-banner{
 		display: flex;
-		flex-direction: column-reverse;
+		padding-top: 3rem;
+	}
+	.main-banner__img--content img{
+		object-position: -44% 50%;
+		object-fit: cover;
 	}
 	.btn-banner{
 		width: 100%;
 		margin: .5rem 0;
+		font-size: .8rem
 	}
 	.subtitle-general{
 		font-size: 2rem;
@@ -63,6 +68,7 @@
 	}
 	.hacemos-content__text{
 		padding: 1rem;
+		font-size: 15px;
 	}
 	.hacemos-content__cards{
 		padding: 0 2rem;
@@ -70,10 +76,16 @@
 	}
 	.card-hacemos__content{
 		width: 100%;
+		flex-direction: column;
+    	text-align: center;
 	}
 	.card-hacemos__img{
 		display: flex;
 		align-items: center;
+		justify-content: center;
+	}
+	.card-hacemos__text--text{
+		font-size: .8rem;
 	}
 	.card-hacemos__text--title{
 		padding: 1rem 0;
@@ -181,6 +193,9 @@
 		left: 0 !important;
 		top: initial !important;
 		right: initial !important;
+	}
+	.item-service img{
+		width: 100px;
 	}
 	.item-service__text{
 		bottom: -1.5rem !important;
@@ -455,30 +470,21 @@
 	.padding-rl{
 		padding: 0 50px;
 	}
-	.navbar-nav{
-		padding-left: 4rem;
+	.content-aliados__items{
+		width: 15%;
+		margin: .5rem;
 	}
-	.main-banner__title{
-		padding: 0 10rem;
+	.btn-banner{
+		width: 40%;
 	}
-	.formacion-logo{
-		top: 10px;
-		right: 411px;
+	.nav-link{
+		font-size: .6rem;
 	}
-	.formacion-item__text{
-		padding: 0 70px;
+	.main-banner__title p{
+		font-size: 4rem;
 	}
-	.stratups-content__text p{
-		padding-right: 1rem;
-	}
-	.logos-content__logos{
-		margin-left: .5rem;
-	}
-	.footer-item__suscribir--input{
-		display: flex;
-	}
-	.footer-item__suscribir--input input{
-		width: 345px;
+	.main-banner__title span, .main-banner__title h3{
+		font-size: 3.5rem;
 	}
 }
 
