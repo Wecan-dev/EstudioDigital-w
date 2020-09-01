@@ -349,7 +349,24 @@ p{
 	padding: .5rem;
 	border: 1px solid #71717126;
 	margin: 1.5rem 0;
+	transition: .3s ease-in-out;
 }
+
+.card-hacemos__content:hover{
+	background-color: #071c3b;
+	transition: .3s ease-in-out;
+}
+
+.card-hacemos__content:hover .card-hacemos__text--title p,.card-hacemos__content:hover .card-hacemos__text--text, .card-hacemos__content:hover .card-hacemos__text--text p {
+	color: #fff;
+	opacity: 1;
+}
+
+.card-hacemos__content:hover .card-hacemos__img img{
+	filter: brightness(0) invert(1);
+	transition: .3s ease-in-out;
+}
+
 .card-hacemos__text--title{
 	padding: 2rem 0;
 	text-align: center;
