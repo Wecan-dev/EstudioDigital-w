@@ -195,7 +195,7 @@ p{
 }
 .link-email a{
 	margin-right: 4rem;
-	font-size: 18px;
+	font-size: 15px;
 	color: #f5f5f5;
 	transition: .2s ease-in-out;
 }
@@ -906,12 +906,12 @@ p{
 .blog-slider__img::before{
 	position: absolute;
 	content: '';
-	width: 2rem;
+	width: 3rem;
 	height: 100%;
 	background: #071c3b;
 	right: 2rem;
 	border-radius: 0 10px 10px 0;
-	z-index: 1;
+	z-index: -1;
 }
 .blog-slider__img::after{
 	position: absolute;
@@ -922,7 +922,7 @@ p{
 	right: 0;
 	top: 0;
 	border-radius: 0 10px 10px 0;
-	z-index: 0;
+	z-index: -2;
 }
 .blog-slider__text{
 	padding: 0 2rem 1rem;
