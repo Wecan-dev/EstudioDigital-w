@@ -615,7 +615,7 @@ p{
 	padding-top: 3rem;
 }
 .content-aliados__items{
-	width: 20%;
+	width: 15%;
 	margin: .5rem;
 }
 .content-aliados__items img{
@@ -713,6 +713,7 @@ p{
 	position: absolute;
 	background: #071c3b;
 	border-radius: 50%;
+	transition: .3s ease-in-out;
 }
 .content-servicio__items:nth-child(1) .item-service{
 	top: -2rem;
@@ -872,6 +873,11 @@ p{
 	text-align: center;
 	color: #071c3b;
 
+}
+
+.item-service:hover{
+	transform: translateY(-30px);
+	transition: .3s ease-in-out;
 }
 .servicio{
 	padding-bottom: 7rem;
