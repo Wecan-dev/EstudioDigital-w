@@ -8,57 +8,13 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </div>
       <div class="main-clientes__content ">
+      	<?php $args = array( 'post_type' => 'Clientes', 'posts_per_page' => 20);?>   
+          <?php $loop = new WP_Query( $args ); ?>
+          <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 357.png" alt="">
+          <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
         </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 358.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 359.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 360.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 361.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 350.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 351.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 352.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 353.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 354.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 355.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 348.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 345.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 346.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 347.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 356.png" alt="">
-        </div>
-        <div class="content-clientes__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Grupo 349.png" alt="">
-        </div>
+        <?php endwhile; ?>
       </div>
     </div>
   </div>

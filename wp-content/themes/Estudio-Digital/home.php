@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+	<?php get_template_part('partials/banner'); ?>
     <?php get_template_part('partials/hacemos'); ?>
     <?php get_template_part('partials/agencia'); ?>
     <?php get_template_part('partials/clientes'); ?>

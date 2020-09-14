@@ -18,7 +18,7 @@
               <p>SEO significa Search Engine Optimization. Se refie</p>
             </div>
             <div class="blog-slider__text--btn">
-              <a href="#">Lorem ipsom dolor <i class="fa fa-arrow-right " arial-hidden="true"></i></a>
+              <a href="#">Ver más <i class="fa fa-arrow-right " arial-hidden="true"></i></a>
             </div>
           </div>
         </div>

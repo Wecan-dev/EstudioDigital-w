@@ -1,3 +1,7 @@
+<?php $args = array( 'post_type' => 'Banner', 'posts_per_page' => 1);?>   
+<?php $loop = new WP_Query( $args ); ?>
+<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+
 <section class="pb-5">
   <div class="banner">
     <div class="main-banner">
@@ -5,7 +9,7 @@
         <div class="main-banner__item">
           <div class="main-banner__text">
             <div class="main-banner__title title-general">
-              <h3>Transformamos marcas, <p>hacemos <br class="d-none d-md-block"> crecer tu negocio</p></h3>
+              <h3><?php the_title();?><?php the_content();?></h3>
             </div>
             
             <div class="boton-banner d-none d-lg-flex">
@@ -15,7 +19,7 @@
           </div>
           <div class="main-banner__img">
             <div class="main-banner__img--content">
-              <img  src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 128.png" alt="">
+              <img  src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
             </div>
           </div>
           <div class="boton-banne d-block d-lg-none">
@@ -26,3 +30,5 @@
     </div>
   </div>
 </section>
+
+<?php endwhile; ?>
