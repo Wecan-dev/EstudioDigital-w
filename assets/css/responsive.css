@@ -71,6 +71,7 @@
 	.btn-banner-respon i{
 		font-size: 1.2rem;
 		padding-left: .5rem;
+		color: #91c000;
 	}
 	.subtitle-general{
 		font-size: 2rem;
@@ -100,7 +101,7 @@
 		justify-content: center;
 	}
 	.card-hacemos__text--text{
-		font-size: .8rem;
+		font-size: 1rem;
 	}
 	.card-hacemos__text--title{
 		padding: 1rem 0;
@@ -197,7 +198,7 @@
 	}
 	.main-servicio__content{
 		grid-template-columns: 1fr 1fr;
-		padding: 0 1rem;
+		padding: 0;
 	}
 	.content-servicio__items{
 		grid-row: auto !important;
@@ -212,22 +213,23 @@
 		right: initial !important;
 	}
 	.item-service img{
-		width: 100px;
+		width: 135px;
 	}
 	.item-service__text{
-		bottom: -1.5rem !important;
+		bottom: -2.5rem !important;
 	    top: initial !important;
-	    font-size: .6rem;
+	    font-size: 1rem;
 	    width: auto !important;
 	    left: 0 !important;
 	    right: initial !important;
+	    padding: .4rem !important;
 	}
 	.agencia-content__text{
 		padding: 0 2rem;
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 	.agencia-content__text h3{
-		font-size: 2rem;
+		font-size: 2.4rem;
 	}
 	.main-blog__content .slick-list.draggable{
 		margin-left: 1rem !important;
@@ -288,6 +290,9 @@
 	}
 	.main-footer__content{
 		grid-template-columns: 100%;
+	}
+	.header.fixed{
+		display: none;
 	}
 }
 
