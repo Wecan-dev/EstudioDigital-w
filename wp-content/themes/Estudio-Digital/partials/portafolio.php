@@ -8,68 +8,16 @@
         Lorem ipsum dolor sit amet consectetur adipisicing elit.
       </div>
       <div class="main-portafolio__content d-none d-lg-flex">
+        <?php $args = array( 'post_type' => 'Portafolio');?>   
+          <?php $loop = new WP_Query( $args ); ?>
+          <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 66.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
+          <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+          <a href="#" class="btn btn-portafolio"><?php the_title(); ?></a>
           <a href="#" class="btn btn-portafolio-s">Ver más</a>
         </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 67.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 68.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 69.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 70.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 71.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-      </div>
-      <div class=" slider-portafolio__responsive d-block d-lg-none">
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 66.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 67.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 68.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 69.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 70.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
-        <div class="content-portafolio__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 71.png" alt="">
-          <a href="#" class="btn btn-portafolio">nombre del proyecto</a>
-          <a href="#" class="btn btn-portafolio-s">Ver más</a>
-        </div>
+        <?php endwhile; ?>
+        
       </div>
     </div>
   </div>

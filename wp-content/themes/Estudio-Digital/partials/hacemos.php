@@ -9,7 +9,7 @@
           <p>Ponemos al alcance de su negocio la misma tecnología y la inteligencia digital que usan las grandes empresas para triunfar en Internet.</p>
         </div>
         <div class="hacemos-content__cards">
-          <?php $args = array( 'post_type' => 'Servicios', 'posts_per_page' => 7);?>   
+          <?php $args = array( 'post_type' => 'Hacemos');?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
           <div class="card-hacemos__content">

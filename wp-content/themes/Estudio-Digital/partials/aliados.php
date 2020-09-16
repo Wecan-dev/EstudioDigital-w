@@ -5,33 +5,13 @@
         <p>Nuestros aliados</p>
       </div>
       <div class="main-aliados__content">
+        <?php $args = array( 'post_type' => 'Aliados');?>   
+          <?php $loop = new WP_Query( $args ); ?>
+          <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="content-aliados__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/Enmascarar grupo 72.png" alt="">
+          <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
         </div>
-        <div class="content-aliados__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/facebook-ads.png" alt="">
-        </div>
-        <div class="content-aliados__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/google-analytics-logo2.png" alt="">
-        </div>
-        <div class="content-aliados__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/imnisend.png" alt="">
-        </div>
-        <div class="content-aliados__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/hustpot.png" alt="">
-        </div>
-        <div class="content-aliados__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/plataforma.png" alt="">
-        </div>
-        <div class="content-aliados__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/∩wordpress.png" alt="">
-        </div>
-        <div class="content-aliados__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/semrush.png" alt="">
-        </div>
-        <div class="content-aliados__items">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/vtex.png" alt="">
-        </div>
+        <?php endwhile; ?>
       </div>
     </div>
   </div>
