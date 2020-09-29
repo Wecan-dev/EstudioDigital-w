@@ -9,7 +9,7 @@
         <div class="main-banner__item">
           <div class="main-banner__text">
             <div class="main-banner__title title-general">
-              <h3><?php the_title();?><?php the_content();?></h3>
+              <h1><?php the_title();?><?php the_content();?></h1>
             </div>
             
             <div class="boton-banner d-none d-lg-flex">

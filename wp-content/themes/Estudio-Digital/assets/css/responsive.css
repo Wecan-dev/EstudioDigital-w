@@ -40,7 +40,7 @@
 		width: 100%;
 		padding: 0 1rem;
 	}
-	.main-banner__title p, .main-banner__title h3{
+	.main-banner__title p, .main-banner__title h1{
 		font-size: 2rem;
 		font-weight: 900;
 		line-height: 2.5rem
@@ -298,6 +298,111 @@
 	.header.fixed{
 		display: none;
 	}
+
+	/*-- Servicio Audiovisual --*/
+
+
+	.banner-serv .main-banner__text{
+		width: 100%;
+	}
+	.main-banner__subtitle--serv.main-banner__title{
+		display: none;
+	}
+	.agencia-audio .agencia-content__text{
+		padding: 2rem;
+	}
+	.agencia-audio .agencia-content__text h3, .audiencia-audio-content__text--title{
+		font-size: 2rem;
+	}
+	.agencia-audio .agencia-content__text p{
+		font-size: 1.5rem;
+	}
+	.agencia-content__text--btn{
+		flex-direction: column;
+		text-align: center;
+	}
+	.agencia-content__text--btn a.btn-agencia-audio{
+		margin: 1rem 0;
+	}
+	.main-audiencia-audio{
+		grid-template-columns: 100%;
+	}
+	.main-audiencia-audio::after{
+		display: none;
+	}
+	.main-tools-audio{
+		grid-template-columns: 100%;
+	}
+	.tools-audio-content__icons{
+		justify-content: center;
+	}
+	.tools-audio-content__icons--img img{
+		width: 120px;
+	}
+	.tools-audio-content__text--text{
+		margin-bottom: 1rem;
+	}
+	.form-audio{
+		padding: 3rem 0;
+	}
+	.main-form-audio__content{
+		padding: 1rem;
+	}
+	.main-form-audio__content a{
+		padding: .5rem 1.5rem;
+	}
+
+
+	/*-- Creacion de marca --*/
+
+
+	.creacion .subtitle-general{
+		padding: 0 1rem;
+	}
+	.creacion .main-audiencia-audio::before{
+		display: none;
+	}
+	.creacion .main-audiencia-audio::after{
+		display: block;
+	}
+
+
+
+	/*-- Ecommerce --*/
+
+
+
+	.main-tools-ecommerce{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+
+	/*-- Desarrollo --*/
+
+
+
+	.tools-audio-content__icons--content2 img{
+		width: 50px;
+	}
+	.tools-desarrollo .tools-audio-content__icons--img{
+		padding: 1rem;
+	}
+	.tools-desarrollo .main-tools-audio__content{
+		justify-content: center;
+	}
+	.main-form-audio__content a{
+		font-size: 1rem;
+	}
+
+
+
+	/*-- Marketing --*/
+
+
+	.subtitle-marketing-steps{
+		padding: 0 1rem;
+	}
 }
 
 
@@ -337,7 +442,7 @@
 	#header{
 		padding: 0;
 	}
-	.main-banner__title h3{
+	.main-banner__title h1{
 		font-size: 3rem;
 		line-height: 4rem;
 	}
@@ -495,6 +600,78 @@
 	.main-agencia{
 		height: 32vh;
 	}
+
+
+	/*-- Servicio Audiovisual --*/
+
+
+
+	.main-banner__subtitle--serv.main-banner__title{
+		display: none;
+	}
+	.agencia-audio .main-agencia{
+		grid-template-columns: 100%;
+		height: auto;
+	}
+	.main-audiencia-audio{
+		grid-template-columns: 100%;
+	}
+	.main-audiencia-audio::before{
+		top: -1px;
+	}
+	.main-audiencia-audio::after{
+		display: none;
+	}
+	.main-tools-audio{
+		grid-template-columns: 100%;
+	}
+	.tools-audio-content__text--text{
+		margin-bottom: 1rem;
+	}
+	.main-form-audio__content{
+		padding: 2rem 5rem;
+	}
+
+
+	/*-- Creacion de marca --*/
+
+
+	.creacion .subtitle-general{
+		padding: 0 1rem;
+	}
+	.creacion .main-audiencia-audio::before{
+		display: none;
+	}
+	.creacion .main-audiencia-audio::after{
+		display: block;
+	}
+
+
+	/*-- Desarrollo --*/
+
+
+	.tools-desarrollo .main-tools-ecommerce .tools-audio-content__icons--img{
+		width: auto;
+	}
+	.tools-audio-content__icons--content2, .tools-audio-content__icons--content{
+		flex-wrap: wrap;
+	}
+	.main-form-audio__content a{
+		font-size: 1rem;
+	}
+
+
+
+	/*-- Marketing --*/
+
+
+	.subtitle-marketing-steps{
+		padding: 0 5rem;
+	}
+	.marketing .main-audiencia-audio::after{
+		display: none;
+	}
+
 }
 
 
@@ -521,6 +698,38 @@
 	}
 	.main-agencia{
 		height: 45vh;
+	}
+	.banner-serv .main-banner__img--content{
+		height: 90vh;
+	}
+	.agencia-audio .main-agencia{
+		height: auto;
+	}
+	.agencia-content__text--btn{
+		flex-direction: column;
+		text-align: center;
+	}
+	.agencia-content__text--btn a{
+		margin: .5rem 0;
+	}
+	.creacion .subtitle-general{
+		padding: 0 5rem;
+	}
+	.tools-desarrollo .main-tools-ecommerce .tools-audio-content__icons--img{
+		width: auto;
+	}
+	.tools-audio-content__icons--content2, .tools-audio-content__icons--content{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.desarrollo .main-audiencia-audio::after{
+		display: none;
+	}
+	.marketing .main-audiencia-audio::after{
+		display: none;
+	}
+	.subtitle-marketing-steps{
+		padding: 0 5rem;
 	}
 }
 

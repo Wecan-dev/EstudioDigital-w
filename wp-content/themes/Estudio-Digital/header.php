@@ -53,7 +53,7 @@
 <body>
 
 <header id="header" class="header">
-  <div class="top-nav ">
+  <div class="top-nav <?php if(is_home()){echo 'top-nav-bg';} ?>">
     <div class="top-nav__content padding-rl">
       <div class="link-email">
         <a href="#">info@estudiodigital.com</a>

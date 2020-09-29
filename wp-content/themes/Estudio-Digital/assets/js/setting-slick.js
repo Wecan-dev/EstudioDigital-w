@@ -1,3 +1,78 @@
+$('.audiencia-text__slider').slick({
+  infinite: true,
+  autoplay: false,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  dots: false,
+  arrows: false,
+  fade:true,
+  responsive: [{
+    breakpoint: 1200,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      infinite: true,
+      dots: false
+    }
+  },
+  {
+    breakpoint: 900,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: false,
+    }
+  },
+  {
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: false,
+
+    }
+  }
+  ]
+});
+
+
+$('.ecommerce-portafolio__content').slick({
+  infinite: true,
+  autoplay: false,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  dots: true,
+  arrows: false,
+  responsive: [{
+    breakpoint: 1200,
+    settings: {
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      infinite: true,
+      dots: true
+    }
+  },
+  {
+    breakpoint: 900,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      dots: true,
+    }
+  },
+  {
+    breakpoint: 600,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: true,
+
+    }
+  }
+  ]
+});
+
+
 $('.main-banner__content').slick({
   infinite: true,
   autoplay: false,
@@ -196,3 +271,6 @@ $('.main-blog__content').slick({
   }
   ]
 });
+
+
+

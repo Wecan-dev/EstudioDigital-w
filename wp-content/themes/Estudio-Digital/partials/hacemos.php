@@ -12,7 +12,7 @@
           <?php $args = array( 'post_type' => 'Hacemos');?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-          <div class="card-hacemos__content">
+          <a href="#" class="card-hacemos__content">
             <div class="card-hacemos__img">
               <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
             </div>
@@ -24,7 +24,7 @@
                 <?php the_content(); ?>
               </div>
             </div>
-          </div>
+          </a>
           <?php endwhile; ?>
     
         </div>
