@@ -403,6 +403,12 @@
 	.subtitle-marketing-steps{
 		padding: 0 1rem;
 	}
+	.tools-marketing .main-tools-ecommerce{
+	    flex-direction:column;
+	}
+	.tools-marketing .tools-audio-content__icons--content2, .tools-marketing .tools-audio-content__icons--content{
+	    flex-direction:column;
+	}
 }
 
 

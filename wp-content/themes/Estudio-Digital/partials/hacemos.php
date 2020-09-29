@@ -12,7 +12,9 @@
           <?php $args = array( 'post_type' => 'Hacemos');?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-          <a href="<?php the_field('url_interna'); ?>" class="card-hacemos__content">
+            <?php $url_interna = get_field( 'url_interna' ); ?>
+            <?php if ( $url_interna ) : ?>
+          <a href="<?php echo esc_url( $url_interna['url'] ); ?>" target="<?php echo esc_attr( $url_interna['target'] ); ?>" class="card-hacemos__content">
             <div class="card-hacemos__img">
               <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
             </div>
@@ -25,6 +27,7 @@
               </div>
             </div>
           </a>
+          <?php endif; ?>
           <?php endwhile; ?>
     
         </div>
