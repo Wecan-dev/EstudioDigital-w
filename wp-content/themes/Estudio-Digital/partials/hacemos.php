@@ -12,7 +12,7 @@
           <?php $args = array( 'post_type' => 'Hacemos');?>   
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-          <a href="#" class="card-hacemos__content">
+          <a href="<?php the_field('url_interna'); ?>" class="card-hacemos__content">
             <div class="card-hacemos__img">
               <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
             </div>
