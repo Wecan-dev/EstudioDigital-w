@@ -38,7 +38,7 @@
 	.main-banner__text{
 		top: 0%;
 		width: 100%;
-		padding: 0 1rem;
+		padding: 0 1rem !important;
 	}
 	.main-banner__title p, .main-banner__title h1{
 		font-size: 2rem;
@@ -73,7 +73,7 @@
 		padding-left: .5rem;
 		color: #91c000;
 	}
-	.subtitle-general{
+	.subtitle-general, .subtitle-general h2{
 		font-size: 2rem;
 	}
 	.subtitle-general::after{
@@ -107,8 +107,10 @@
 		padding: 1rem 0;
 	}
 	.main-agencia{
-		grid-template-columns: 100%;
-		height: 100vh;
+		flex-direction: column;
+	}
+	.main-agencia__content{
+		width: 100%;
 	}
 	.main-contenido__content{
 		grid-template-columns: 1fr 1fr;
@@ -226,7 +228,7 @@
 	    padding: .4rem !important;
 	}
 	.agencia-content__text{
-		padding: 0 2rem;
+		padding: 2rem;
 		font-size: 1.5rem;
 	}
 	.agencia-content__text h3{
@@ -335,6 +337,8 @@
 	}
 	.tools-audio-content__icons{
 		justify-content: center;
+		flex-wrap: wrap;
+    	flex-direction: column;
 	}
 	.tools-audio-content__icons--img img{
 		width: 120px;
@@ -364,6 +368,10 @@
 	}
 	.creacion .main-audiencia-audio::after{
 		display: block;
+	}
+	.tools-creacion .main-tools-audio{
+	    display:flex;
+	    flex-direction:column-reverse;
 	}
 
 
@@ -408,6 +416,61 @@
 	}
 	.tools-marketing .tools-audio-content__icons--content2, .tools-marketing .tools-audio-content__icons--content{
 	    flex-direction:column;
+	}
+	.banner-serv .main-banner__title h1{
+		font-size: 2rem;
+		line-height: 1;
+	}
+	.section-text{
+		padding: 1rem;
+	}
+	.main-marketing-steps .subtitle-general{
+		padding: .5rem;
+	}
+	.main-marketing-steps .card-hacemos__text--text p, .type-marketing__text .card-hacemos__text--text p, .section-text .card-hacemos__text--text p{
+		width: 100%;
+	}
+	.text-card__steps{
+		text-align: justify;
+	}
+	.marketing .main-ecommerce{
+		padding: 1rem;
+	}
+	.marketing .main-audiencia-audio::after{
+		display: none;
+	}
+	.tools-marketing .tools-audio-content__text--text{
+		flex-direction: column;
+	}
+	.tools-marketing .tools-audio-content__text--text ul{
+		margin-bottom: 0;
+	}
+	.type-marketing__list{
+		flex-direction: column;
+	}
+	.type-marketing__title h3{
+		font-size: 1.5rem;
+	}
+	.marketing .audiencia-audio-content__text--text{
+		padding: 0;
+	}
+	.section-text-audio .tools-audio-content__text--text{
+		flex-direction: column
+	}
+	.section-text-audio .tools-audio-content__text--text ul{
+		margin: 0;
+	}
+	.audio-steps .hacemos-content__cards{
+		padding: 0;
+	}
+	.main-marketing-steps .card-hacemos__text--title{
+		font-size: 18px;
+	}
+	.audio-steps .card-hacemos__text--text p{
+		text-align: start;
+	}
+	.tools-marketing .tools-audio-content__icons--content2 img{
+		width: 120px;
 	}
 }
 
@@ -458,6 +521,9 @@
 	}
 	.btn-banner{
 		width: 45%;
+	}
+	.banner-serv .main-banner__text{
+		padding-right: 0 !important;
 	}
 	.main-banner__text{
 		top: 15%;
@@ -512,6 +578,10 @@
 	}
 	.main-aliados{
 		padding: 2rem 3rem;
+		
+	}
+	.tools-marketing .main-aliados{
+		grid-template-columns: 100%;
 	}
 	.content-aliados__items{
 		padding: .5rem;
@@ -603,9 +673,6 @@
 	.main-footer__content{
 		grid-template-columns: 100%;
 	}
-	.main-agencia{
-		height: 32vh;
-	}
 
 
 	/*-- Servicio Audiovisual --*/
@@ -616,8 +683,7 @@
 		display: none;
 	}
 	.agencia-audio .main-agencia{
-		grid-template-columns: 100%;
-		height: auto;
+		flex-direction: column;
 	}
 	.main-audiencia-audio{
 		grid-template-columns: 100%;
@@ -661,6 +727,7 @@
 	}
 	.tools-audio-content__icons--content2, .tools-audio-content__icons--content{
 		flex-wrap: wrap;
+		justify-content: center;
 	}
 	.main-form-audio__content a{
 		font-size: 1rem;
@@ -677,7 +744,15 @@
 	.marketing .main-audiencia-audio::after{
 		display: none;
 	}
-
+	.main-marketing-steps .subtitle-general{
+		padding: 0 1rem;
+	}
+	.main-agencia__content{
+		width: 100%;
+	}
+	.marketing .audiencia-audio-content__text--text{
+		padding: 0;
+	}
 }
 
 
@@ -701,9 +776,6 @@
 	}
 	.main-banner__title span, .main-banner__title h3{
 		font-size: 3.5rem;
-	}
-	.main-agencia{
-		height: 45vh;
 	}
 	.banner-serv .main-banner__img--content{
 		height: 90vh;
@@ -736,6 +808,15 @@
 	}
 	.subtitle-marketing-steps{
 		padding: 0 5rem;
+	}
+	.main-marketing-steps .subtitle-general{
+		padding: 0 5rem;
+	}
+	.marketing .audiencia-audio-content__text--text{
+		padding: 0;
+	}
+	.banner-dev .main-banner__text{
+		padding-right: 0;
 	}
 }
 

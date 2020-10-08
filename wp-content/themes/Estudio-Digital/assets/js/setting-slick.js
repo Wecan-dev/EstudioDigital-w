@@ -75,11 +75,11 @@ $('.ecommerce-portafolio__content').slick({
 
 $('.main-banner__content').slick({
   infinite: true,
-  autoplay: false,
+  autoplay: true,
   slidesToShow: 1,
   slidesToScroll: 1,
   dots: false,
-  autoplaySpeed:3000,
+  autoplaySpeed: 3000,
   arrows: false,
   fade: true,
   cssEase: "linear",
@@ -105,7 +105,7 @@ $('.main-banner__content').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       dots: false,
-
+      autoplay:false,
     }
   }
   ]
