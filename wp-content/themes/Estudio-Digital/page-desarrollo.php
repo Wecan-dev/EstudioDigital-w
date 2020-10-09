@@ -209,14 +209,14 @@
         </p>
       </div>
     </div>
-    <div class="type-marketing__types">
+    <div class="type-marketing__types" id="dominio">
       <div class="type-marketing__title">
         <h3>¿Qué herramientas y recursos conforman una página web?</h3>
       </div>
       <div class="type-marketing__text">
           <div class="type-marketing__list">
             <div class="type-marketing__list--item">
-              <div class="card-hacemos__text--text">
+              <div class="card-hacemos__text--text" >
                 <p> 
                   <strong style="color:#071c3b">Dominio:</strong> Esto es el nombre de tu página, la información que usarán tanto las personas como los servidores para poder encontrar tu sitio web, ejemplo: estudiodigital.co
                 </p>

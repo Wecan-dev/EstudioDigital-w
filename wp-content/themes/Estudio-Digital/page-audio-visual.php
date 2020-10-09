@@ -272,7 +272,6 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
 
 
 
-
 <section class="py-4">
   <div class="contenido">
     <div class="main-contenido">
@@ -280,15 +279,16 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
         <p>Nuestras creaciones audiovisuales</p>
       </div>
       <div class="main-contenido__content">
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
+        <?php $args = array( 'post_type' => 'CreamosContenido', 'posts_per_page' => 6);?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+          <div class="contenido-content__grid">
+          <div class="contenido-content__gridtext">
+            <p><?php the_title(); ?></p>
+          </div>
+            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+          </div>
+        <?php endwhile; ?>
       </div>
     </div>
   </div>

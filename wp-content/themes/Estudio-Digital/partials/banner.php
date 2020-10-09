@@ -13,7 +13,7 @@
             </div>
             
             <div class="boton-banner d-none d-lg-flex">
-              <a class="btn btn-banner btn-secun"  href="#">Aprende más</a>
+              <a class="btn btn-banner btn-secun"  href="#hacemos">Aprende más</a>
               <a class="btn btn-banner btn-general" href="#">Comienza ahora</a>
             </div>
           </div>

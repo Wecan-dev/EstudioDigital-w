@@ -88,7 +88,7 @@
   </div>
     <nav class="navbar navbar-expand-lg navbar-fixed-js" id="navbar">
       <div class="main-brand">
-        <a itemprop="url" class="navbar-brand" href="/">
+        <a itemprop="url" class="navbar-brand" href="<?php bloginfo('url'); ?>">
 			   <img id="iso" src="<?php echo get_template_directory_uri();?>/assets/img/logo-estudio-nuevo1.png" alt="" />
         </a>
         <button class="navbar-toggler  border-0 hamburger hamburger--elastic ml-autos" data-toggle="offcanvas"
@@ -107,12 +107,20 @@
 			<li class="nav-item ">
 				<a class="nav-link  " href="#Nosotros">nosotros</a>
 			</li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          servicios
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="<?php bloginfo('url'); ?>/marketing">Marketing Digital</a>
+          <a class="dropdown-item" href="<?php bloginfo('url'); ?>/desarrollo">Desarrollo Web</a>
+          <a class="dropdown-item" href="<?php bloginfo('url'); ?>/ecommerce">Comercio Electronico</a>
+          <a class="dropdown-item" href="<?php bloginfo('url'); ?>/audio-visual">Producción Audiovisual</a>
+          <a class="dropdown-item" href="<?php bloginfo('url'); ?>/creacion-de-marca">Creación de Marca</a>
+        </div>
+      </li>
 			<li class="nav-item">
-				<a class="nav-link " href="<?php bloginfo('url'); ?>/news">servicios</a>
-
-			</li>
-			<li class="nav-item">
-				<a class="nav-link "href="#">host y dom</a>
+				<a class="nav-link "href="<?php bloginfo('url'); ?>/desarrollo/#dominio">host y dom</a>
 			</li>
       <li class="nav-item">
         <a class="nav-link "href="#Aliados">partners</a>

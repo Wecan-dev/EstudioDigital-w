@@ -1,4 +1,4 @@
-<section>
+<section id="hacemos">
   <div class="hacemos">
     <div class="main-hacemos">
       <div class="main-hacemos__content">
