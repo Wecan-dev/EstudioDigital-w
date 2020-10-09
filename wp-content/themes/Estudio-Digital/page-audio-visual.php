@@ -116,18 +116,18 @@
     </div>
 	<div class="tools-audio-content__text--text">
 		<ul>
-	      <li>1.  Aumenta el tráfico a tu sitio web </li>
-	      <li>2. Facilitan la viralidad de tu contenido</li>
-	      <li>3. Ayuda a la imagen y el posicionamiento de tu marca</li>
-	      <li>4. Permiten la Interacción con los clientes</li>
-	      <li>5. Genera emociones y sentimientos en las personas</li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i>  Aumenta el tráfico a tu sitio web </li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i> Facilitan la viralidad de tu contenido</li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i> Ayuda a la imagen y el posicionamiento de tu marca</li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i> Permiten la Interacción con los clientes</li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i> Genera emociones y sentimientos en las personas</li>
 	    </ul>
 	    <ul>
-	      <li>6. Crea buenos recuerdo asociados a la marca</li>
-	      <li>7. Resulta más atractivo para tus clientes.</li>
-	      <li>8. Aumenta la confianza de los usuarios en tu marca</li>
-	      <li>9. Tiene gran poder de atracción y persuasión </li>
-	      <li>10. Acerca tu marca al público</li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i> Crea buenos recuerdo asociados a la marca</li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i> Resulta más atractivo para tus clientes.</li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i> Aumenta la confianza de los usuarios en tu marca</li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i> Tiene gran poder de atracción y persuasión </li>
+	      <li><i class="fa fa-check" aria-hidden="true"></i>  Acerca tu marca al público</li>
 	    </ul>
 	</div>
 	<div class="section-text__text section-text__text--others">
@@ -168,7 +168,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
 
 
 <section class="py-4">
-  <div class="type-marketing type-audio padding-rl">
+  <div class="type-marketing type-audio container">
     <div class="subtitle-general">
       <H2>Que servicios te ofrecemos  </H2>
     </div>
@@ -180,7 +180,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
     </div>
     <div class="type-marketing__types">
       <div class="type-marketing__title">
-        <h3>Diseño y producción de anuncios televisivos.   </h3>  
+      	<h3>Diseño y producción de anuncios televisivos.</h3>
       </div>
       <div class="type-marketing__text">
         <p>
@@ -190,7 +190,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
     </div>
     <div class="type-marketing__types">
       <div class="type-marketing__title">
-        <h3>Diseño y producción de videos web. </h3> 
+      	<h3>Diseño y producción de videos web.</h3>
       </div>
       <div class="type-marketing__text">
         <p>Especial para negocios que quieren incluir contenido audiovisual en su sitio web, muestras de productos, videos de cabecera o de fondo, entre otros. Dándoles un diseño ágil, impactante y profesional.</p>
@@ -209,7 +209,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
     </div>
     <div class="type-marketing__types">
       <div class="type-marketing__title">
-        <h3>Diseño y producción de video 360⁰ </h3> 
+      	<h3>Diseño y producción de video 360⁰</h3>
       </div>
       <div class="type-marketing__text">
         <p>Forma parte de esta nueva y divertida forma de ver y mostrar el mundo. Con el equipo de estudio digital podrás capturar todo lo que te rodea y mucho más. Una increíble experiencia de 360 ° a tu alcance.</p>
@@ -217,7 +217,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
     </div>
     <div class="type-marketing__types">
       <div class="type-marketing__title">
-        <h3>Diseño, creación y producción de presentaciones de video B2B de empresas, ferias y portafolios de video. </h3> 
+      	<h3>Diseño, creación y producción de presentaciones de video B2B de empresas, ferias y portafolios de video. </h3>
       </div>
       <div class="type-marketing__text">
         <p>Orientado a empresas y emprendedores que requieren alta calidad y precisión en el contenido de sus audiovisuales, con una estructura profesional, fresca y moderna. <br><br>
@@ -226,7 +226,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
     </div>
     <div class="type-marketing__types">
       <div class="type-marketing__title">
-        <h3>Web Show</h3> 
+      	<h3>Web Show</h3>
       </div>
       <div class="type-marketing__text">
         <p>Si estas pensando en tener tu propio web show, este servicio es tu mejor opción. Podrás estar tranquilo y tener la seguridad que tu web show se verá y escuchara increíble en cada toma y en cada cuadro. <br><br>
@@ -244,7 +244,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
     </div>
     <div class="type-marketing__types">
       <div class="type-marketing__title">
-        <h3>Video Blog</h3> 
+      	<h3>Video Blog</h3>
       </div>
       <div class="type-marketing__text">
         <p>Nuestro servicio para video blog se enfoca en mejorar la calidad y rendimiento de tus contenidos, eres video blogger, influencer o youtuber, podemos ayudarte a mejorar tus producciones y a conquistar las redes sociales con tus videos.</p>
@@ -281,7 +281,6 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
 
 
 
-
 <section class="py-4">
   <div class="contenido">
     <div class="main-contenido">
@@ -289,15 +288,16 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
         <p>Nuestras creaciones audiovisuales</p>
       </div>
       <div class="main-contenido__content">
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
+        <?php $args = array( 'post_type' => 'CreamosContenido', 'posts_per_page' => 6);?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+          <div class="contenido-content__grid">
+          <div class="contenido-content__gridtext">
+            <p><?php the_title(); ?></p>
+          </div>
+            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+          </div>
+        <?php endwhile; ?>
       </div>
     </div>
   </div>
@@ -373,7 +373,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
 
 
 <section class="py-4">
-  <div class="type-marketing type-audio padding-rl">
+  <div class="type-marketing type-audio container">
     <div class="subtitle-general">
       <h2>Qué es la producción audiovisual</h2>
     </div>
@@ -385,7 +385,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
     </div>
     <div class="type-marketing__types">
       <div class="type-marketing__title">
-        <h3>preproducción.</h3> 
+      	<h3>Preproducción.</h3>
       </div>
       <div class="type-marketing__text">
         <p>
@@ -415,7 +415,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
 </section>
 
 
-<div class="section-text">
+<div class="section-text container">
   <div class="subtitle-general">
       <h2>¿Qué debes considerar para tu producción audiovisual?</h2>
     </div>
@@ -434,7 +434,7 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
 
 
 
-<div class="section-text">
+<div class="section-text container">
   <div class="subtitle-general">
       <h2>Tiempos y costos de una producción audiovisual</h2>
     </div>
