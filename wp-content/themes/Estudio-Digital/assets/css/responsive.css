@@ -228,7 +228,11 @@
 	    padding: .4rem !important;
 	}
 	.agencia-content__text{
+<<<<<<< HEAD:assets/css/responsive.css
+		padding: 0 2rem;
+=======
 		padding: 2rem;
+>>>>>>> c8a0d661d0659b5c13a15b6bdd79cf53ef8a6934:wp-content/themes/Estudio-Digital/assets/css/responsive.css
 		font-size: 1.5rem;
 	}
 	.agencia-content__text h3{
@@ -300,6 +304,8 @@
 	.header.fixed{
 		display: none;
 	}
+<<<<<<< HEAD:assets/css/responsive.css
+=======
 
 	/*-- Servicio Audiovisual --*/
 
@@ -472,6 +478,7 @@
 	.tools-marketing .tools-audio-content__icons--content2 img{
 		width: 120px;
 	}
+>>>>>>> c8a0d661d0659b5c13a15b6bdd79cf53ef8a6934:wp-content/themes/Estudio-Digital/assets/css/responsive.css
 }
 
 
