@@ -25,7 +25,11 @@
             </div>
           </div>
           <div class="boton-banne d-block d-lg-none">
-            <a class="btn btn-banner btn-banner-respon"  href="#">Hablemos de tu proyecto <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
+          <?php if ( wp_is_mobile() ) : ?>
+            <a class="btn btn-banner btn-banner-respon"  href="https://api.whatsapp.com/send?phone=573002976970">Hablemos de tu proyecto <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
+          <?php else : ?>
+            <a class="btn btn-banner btn-banner-respon"  href="https://web.whatsapp.com/send?phone=573002976970">Hablemos de tu proyecto <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
+          <?php endif; ?>
           </div>
         </div>
         <div class="main-banner__item">
@@ -147,7 +151,12 @@ Dale play a tu futuro y disfruta las ventajas de una producción audiovisual de 
           <h3>Hablemos YA</h3>
           <p>del crecimiento de tu empresa online</p>
           <div class="agencia-content__text--btn">
-          	<a class="btn btn-agencia-audio"  href="#" > <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp  </a>
+            <?php if ( wp_is_mobile() ) : ?>
+              <a class="btn btn-agencia-audio"  href="https://api.whatsapp.com/send?phone=573002976970" > <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp  </a>
+            <?php else : ?>
+              <a class="btn btn-agencia-audio"  href="https://web.whatsapp.com/send?phone=573002976970" > <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp  </a>
+            <?php endif; ?>
+            
           	<a href="">Contacto</a>
           </div>
         </div>
