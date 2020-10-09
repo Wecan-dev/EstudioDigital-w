@@ -1,4 +1,4 @@
-<section>
+<section id="Portafolio">
   <div class="portafolio">
     <div class="main-portafolio padding-rl">
       <div class="subtitle-general">

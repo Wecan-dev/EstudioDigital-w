@@ -265,6 +265,63 @@ function Clientes() {
 }
 add_action( 'init', 'Clientes', 0 );
 
+// Register Custom CreamosContenido
+function CreamosContenido() {
+
+    $labels = array(
+        'name'                  => _x( 'Creamos Contenido ', 'Post Type General Name', 'EstudioDigital' ),
+        'singular_name'         => _x( 'Creamos Contenido', 'Post Type Singular Name', 'EstudioDigital' ),
+        'menu_name'             => __( 'Creamos Contenido', 'EstudioDigital' ),
+        'name_admin_bar'        => __( 'Creamos Contenido', 'EstudioDigital' ),
+        'archives'              => __( 'Archivo', 'EstudioDigital' ),
+        'attributes'            => __( 'Atributos', 'EstudioDigital' ),
+        'parent_item_colon'     => __( 'Artículo principal', 'EstudioDigital' ),
+        'all_items'             => __( 'Todos los artículos', 'EstudioDigital' ),
+        'add_new_item'          => __( 'Agregar ítem nuevo', 'EstudioDigital' ),
+        'add_new'               => __( 'Añadir nuevo', 'EstudioDigital' ),
+        'new_item'              => __( 'Nuevo artículo', 'EstudioDigital' ),
+        'edit_item'             => __( 'Editar elemento', 'EstudioDigital' ),
+        'update_item'           => __( 'Actualizar artículo', 'EstudioDigital' ),
+        'view_item'             => __( 'Ver ítem', 'EstudioDigital' ),
+        'view_items'            => __( 'Ver artículos', 'EstudioDigital' ),
+        'search_items'          => __( 'Buscar artículo', 'EstudioDigital' ),
+        'not_found'             => __( 'Extraviado', 'EstudioDigital' ),
+        'not_found_in_trash'    => __( 'No se encuentra en la basura', 'EstudioDigital' ),
+        'featured_image'        => __( 'Foto principal', 'EstudioDigital' ),
+        'set_featured_image'    => __( 'Establecer imagen destacada', 'EstudioDigital' ),
+        'remove_featured_image' => __( 'Remove featured image', 'EstudioDigital' ),
+        'use_featured_image'    => __( 'Usar como imagen destacada', 'EstudioDigital' ),
+        'insert_into_item'      => __( 'Insertar en el elemento', 'EstudioDigital' ),
+        'uploaded_to_this_item' => __( 'Subido a este artículo', 'EstudioDigital' ),
+        'items_list'            => __( 'Lista de artículos', 'EstudioDigital' ),
+        'items_list_navigation' => __( 'Lista de elementos de navegación', 'EstudioDigital' ),
+        'filter_items_list'     => __( 'Lista de elementos de filtro', 'EstudioDigital' ),
+    );
+    $args = array(
+        'label'                 => __( 'Creamos Contenido', 'EstudioDigital' ),
+        'description'           => __( 'Post Type Description', 'EstudioDigital' ),
+        'labels'                => $labels,
+        'supports'              => array( 'title', 'thumbnail' ),
+        'taxonomies'            => array(  ),
+        'hierarchical'          => false,
+        'public'                => true,
+        'show_ui'               => true,
+        'show_in_menu'          => true,
+        'menu_position'         => 5,
+        'menu_icon'             => 'dashicons-editor-ol',
+        'show_in_admin_bar'     => true,
+        'show_in_nav_menus'     => true,
+        'can_export'            => true,
+        'has_archive'           => true,
+        'exclude_from_search'   => false,
+        'publicly_queryable'    => true,
+        'capability_type'       => 'page',
+    );
+    register_post_type( 'CreamosContenido', $args );
+
+}
+add_action( 'init', 'CreamosContenido', 0 );
+
 
 // Register Custom Portafolio
 function Portafolio() {

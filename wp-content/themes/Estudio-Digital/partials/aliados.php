@@ -1,4 +1,4 @@
-<section>
+<section id="Aliados">
   <div class="aliados">
     <div class="main-aliados">
       <div class="subtitle-general subtitle-general-aliados ">

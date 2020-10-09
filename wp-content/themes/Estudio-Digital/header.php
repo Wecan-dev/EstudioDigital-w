@@ -56,8 +56,13 @@
   <div class="top-nav <?php if(is_home()){echo 'top-nav-bg';} ?>">
     <div class="top-nav__content padding-rl">
       <div class="link-email">
-        <a href="#">info@estudiodigital.com</a>
-        <a href="#">+57 123456789</a>
+        <a href="#">marketing@sigmasoft.co</a>
+        <?php if ( wp_is_mobile() ) : ?>
+          <a href="https://api.whatsapp.com/send?phone=573002976970">+57 300 2976970</a>
+        <?php else : ?>
+          <a href="https://web.whatsapp.com/send?phone=573002976970">+57 300 2976970</a>
+        <?php endif; ?>
+        
       </div>
       <div class="link-redes d-none d-lg-flex">
         <a href="https://www.facebook.com/estudiodigital.co/" target="_blank">
@@ -69,7 +74,7 @@
         <a href="" target="_blank">
           <i class="fa fa-linkedin" aria-hidden="true"></i>
         </a>
-        <a href="" target="_blank">
+        <a href="https://www.youtube.com/channel/UCo3zvcAHbe2vQbIaws9t5AA/" target="_blank">
           <i class="fa fa-youtube-play" aria-hidden="true"></i>
         </a>
         <a href="https://twitter.com/GrupoEDigital" target="_blank">
@@ -100,7 +105,7 @@
 			</li>
 
 			<li class="nav-item ">
-				<a class="nav-link  " href="#about">nosotros</a>
+				<a class="nav-link  " href="#Nosotros">nosotros</a>
 			</li>
 			<li class="nav-item">
 				<a class="nav-link " href="<?php bloginfo('url'); ?>/news">servicios</a>
@@ -110,35 +115,35 @@
 				<a class="nav-link "href="#">host y dom</a>
 			</li>
       <li class="nav-item">
-        <a class="nav-link "href="#">partners</a>
+        <a class="nav-link "href="#Aliados">partners</a>
       </li>
 			<li class="nav-item">
-        <a class="nav-link "href="#">portafolio</a>
+        <a class="nav-link "href="#Portafolio">portafolio</a>
       </li>
       <li class="nav-item">
         <a class="nav-link "href="#">metodo ed</a>
       </li>
-      <li class="nav-item">
+      <!--<li class="nav-item">
         <a class="nav-link "href="#">blog</a>
-      </li>
+      </li>-->
       <li class="nav-item">
         <a class="nav-link "href="#">contacto</a>
       </li>
 		</ul>
     <div class="link-redes  d-block d-lg-none">
-        <a href="">
+        <a target="_blank" href="https://www.facebook.com/estudiodigital.co/">
           <i class="fa fa-facebook" aria-hidden="true"></i>
         </a>
-        <a href="">
+        <a target="_blank" href="https://www.instagram.com/estudiodigital.co/">
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
-        <a href="">
+        <a target="_blank" href="">
           <i class="fa fa-linkedin" aria-hidden="true"></i>
         </a>
-        <a href="">
+        <a target="_blank" href="https://www.youtube.com/channel/UCo3zvcAHbe2vQbIaws9t5AA/">
           <i class="fa fa-youtube-play" aria-hidden="true"></i>
         </a>
-        <a href="">
+        <a target="_blank" href="https://twitter.com/GrupoEDigital">
           <i class="fa fa-twitter" aria-hidden="true"></i>
         </a>    
         <div class="nav-btn-acceso">
