@@ -1,4 +1,4 @@
-<section>
+<section id="Nosotros">
   <div class="agencia">
     <div class="main-agencia">
       <div class="main-agencia__content">
@@ -9,7 +9,7 @@
       </div>
       <div class="main-agencia__content">
         <div class="agencia-content__video">
-          <video src="<?php echo get_template_directory_uri();?>/assets/img/video-agencia.mp4" autoplay="true" controls="true"></video>
+          <video id="videohome" src="<?php echo get_template_directory_uri();?>/assets/img/video-agencia.mp4" autoplay="true" controls="true"></video>
         </div>
       </div>
     </div>
@@ -24,15 +24,17 @@
         <p>Creamos contenido</p>
       </div>
       <div class="main-contenido__content">
+        <div class="contenido-content__grid">
+          <img src="<?php echo get_template_directory_uri();?>/assets/img/diseño de personaje lucy 1.jpg" alt="">
+        </div>
+        <!-- <div class="contenido-content__grid"></div>
         <div class="contenido-content__grid"></div>
         <div class="contenido-content__grid"></div>
         <div class="contenido-content__grid"></div>
         <div class="contenido-content__grid"></div>
         <div class="contenido-content__grid"></div>
         <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
+        <div class="contenido-content__grid"></div> -->
       </div>
     </div>
   </div>

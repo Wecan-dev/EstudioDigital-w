@@ -63,3 +63,19 @@ $(window).scroll(function () {
 wow = new WOW();
 wow.init();
 
+const $video = document.querySelector('#videohome')
+const options = {
+  // root: document.querySelector('body'),
+  rootMargin: '0px 0px 0px 0px',
+  threshold: .5,
+}
+function callback(entries, observer) {
+  console.log('se llamó al callback')
+  if (entries[0].isIntersecting) {
+    $video.play()
+  } else {
+    $video.pause()
+  }
+}
+const observer = new IntersectionObserver(callback, options)
+observer.observe($video)

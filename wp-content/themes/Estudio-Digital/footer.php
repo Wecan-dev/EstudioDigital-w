@@ -15,11 +15,19 @@
             <img src="<?php echo get_template_directory_uri();?>/assets/img/Unión 1.png" alt=""><p>dirección</p>
           </div>
           <div class="content-footer__direc--text">
-            <p>Cra 81a 37d 25 int 501</p>
-            <p>Medellín, Colombia</p>
-            <a href="#">Tel +574-5899320</a>
-            <a href="#">Mobil +57 300 2976970</a>
-            <a href="#">marketing@sigmasoft.co</a>
+            <a target="_blank" href="https://goo.gl/maps/QthBvW4op38peere9">
+              Cra 81a 37d 25 int 501
+              <br>
+              Medellín, Colombia
+            </a>
+            <a target="_blank" href="tel:5745899320">Tel +574-5899320</a>
+            <?php if ( wp_is_mobile() ) : ?>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=573002976970">Mobil +57 300 2976970</a>
+            <?php else : ?>
+              <a target="_blank" href="https://web.whatsapp.com/send?phone=573002976970">Mobil +57 300 2976970</a>
+            <?php endif; ?>
+              
+            <a target="_blank" href="mailto:marketing@sigmasoft.co">marketing@sigmasoft.co</a>
           </div>
         </div>
         <div class="content-footer__redes">
@@ -27,25 +35,32 @@
             <p>nuetras redes sociales</p>
           </div>
           <div class="content-footer__redes--content">
-             <a href="">
+             <a target="_blank" href="https://www.facebook.com/estudiodigital.co/">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a target="_blank" href="https://www.instagram.com/estudiodigital.co/">
                 <i class="fa fa-instagram" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a target="_blank" href="">
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a target="_blank" href="https://www.youtube.com/channel/UCo3zvcAHbe2vQbIaws9t5AA/">
                 <i class="fa fa-youtube-play" aria-hidden="true"></i>
               </a>
-              <a href="">
+              <a target="_blank" href="https://twitter.com/GrupoEDigital">
                 <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
-              <a href="">
-                <i class="fa fa-whatsapp" aria-hidden="true"></i>
-              </a>
-              <a href="">
+              <?php if ( wp_is_mobile() ) : ?>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=573002976970">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+              <?php else : ?>
+                <a target="_blank" href="https://web.whatsapp.com/send?phone=573002976970">
+                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                </a>
+              <?php endif; ?>
+              
+              <a target="_blank" href="mailto:marketing@sigmasoft.co">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
               </a>   
           </div>
@@ -53,7 +68,7 @@
       </div>
     </div>
     <div class="pie-footer">
-        <p> ©2020 <a href="#"></a></p>
+        <p> © Copyright 2020 Estudio Digital<a href="#"></a></p>
       </div>
   </div>
 </footer>
