@@ -24,17 +24,13 @@
         <p>Creamos contenido</p>
       </div>
       <div class="main-contenido__content">
-        <div class="contenido-content__grid">
-          <img src="<?php echo get_template_directory_uri();?>/assets/img/diseño de personaje lucy 1.jpg" alt="">
-        </div>
-        <!-- <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div>
-        <div class="contenido-content__grid"></div> -->
+        <?php $args = array( 'post_type' => 'CreamosContenido', 'posts_per_page' => 9);?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+          <div class="contenido-content__grid">
+            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
+          </div>
+        <?php endwhile; ?>
       </div>
     </div>
   </div>
