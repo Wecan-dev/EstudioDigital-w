@@ -34,7 +34,7 @@
 </section>
 
 
-<div class="section-text">
+<div class="section-text container">
     <div class="section-text__text section-text__text--others">
       <p>Contar con un buen diseño de página web, una tienda online u otro tipo de desarrollo web optimizado para los usuarios y para buscadores como Google, te abre las puertas hacia grandes oportunidades de negocios y a nuevos clientes provenientes de Internet. <br><br>
         En nuestros más de 10 años hemos desarrollado más de 1.200 sitios web para empresas de diferentes sectores y tamaños, es una de nuestras primeras unidades de servicio y es algo que realizamos con pasión, compromiso e idoneidad. 
@@ -75,22 +75,22 @@
     </div>
   <div class="tools-audio-content__text--text">
     <ul>
-        <li>1.  No tiene límites geográficos.</li>
-        <li>2. Es tu vendedor online que trabaja 24/7 los 365 días de la semana.</li>
-        <li>3. Es la mejor forma de presentarle al mundo tu negocio a través de Google.</li>
-        <li>4. Es el lugar destino de las campañas publicitarias que realice en redes sociales.</li>
-        <li>5. Los costos de mantenimiento son realmente bajos en comparación con los costos de un local físico.</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>  No tiene límites geográficos.</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Es tu vendedor online que trabaja 24/7 los 365 días de la semana.</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Es la mejor forma de presentarle al mundo tu negocio a través de Google.</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Es el lugar destino de las campañas publicitarias que realice en redes sociales.</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Los costos de mantenimiento son realmente bajos en comparación con los costos de un local físico.</li>
       </ul>
       <ul>
-        <li>6. Brinda información relevante a tus clientes sobre los productos, servicios, ofertas y demás.</li>
-        <li>7. Puedes conocer el comportamiento de los usuarios interesados en tu negocio.</li>
-        <li>8. Las páginas web hoy día se gestionan de forma rápida y fácil, si manejas un Email, manejas la web.</li>
-        <li>9. Te ayuda a consolidar la base de datos de clientes actuales y clientes potenciales.</li>
-        <li>10. Incrementa las ventas y contribuye con el crecimiento de tu empresa. </li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Brinda información relevante a tus clientes sobre los productos, servicios, ofertas y demás.</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Puedes conocer el comportamiento de los usuarios interesados en tu negocio.</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Las páginas web hoy día se gestionan de forma rápida y fácil, si manejas un Email, manejas la web.</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i> Te ayuda a consolidar la base de datos de clientes actuales y clientes potenciales.</li>
+        <li><i class="fa fa-check" aria-hidden="true"></i>  Incrementa las ventas y contribuye con el crecimiento de tu empresa. </li>
       </ul>
   </div>
   <div class="section-text__text section-text__text--others">
-      <p >
+      <p class="dev-strong" >
         <strong>
         “Un eCommerce te genera ingresos incluso mientras duermes”. <br><br>
         “El mundo web está conectado, sólo hace falta que te integres”.
@@ -139,7 +139,7 @@
 </section>
 
 <section class="py-4">
-  <div class="type-marketing type-audio padding-rl">
+  <div class="type-marketing type-audio container">
     <div class="subtitle-general">
       <h2>Tipo de página web ideal para ti </h2>
     </div>
@@ -184,7 +184,7 @@
 
 
 <section class="py-5">
-  <div class="type-marketing type-audio padding-rl">
+  <div class="type-marketing type-audio container">
     <div class="subtitle-general">
       <h2> ¿Qué se necesita para hacer una página web o tienda online? <h2>
     </div>
@@ -218,16 +218,16 @@
             <div class="type-marketing__list--item">
               <div class="card-hacemos__text--text">
                 <p> 
-                  <strong>Dominio:</strong> Esto es el nombre de tu página, la información que usarán tanto las personas como los servidores para poder encontrar tu sitio web, ejemplo: estudiodigital.co
+                  <strong style="color:#071c3b">Dominio:</strong> Esto es el nombre de tu página, la información que usarán tanto las personas como los servidores para poder encontrar tu sitio web, ejemplo: estudiodigital.co
                 </p>
                 <p>
-                  <strong>Hosting:</strong> Es el lugar donde vivirá tu nuevo sitio web, también llamado host o alojamiento, y permite que tu sitio web esté disponible 24/7. El hosting es un espacio de almacenamiento virtual dentro un servidor. </p>
+                  <strong style="color:#071c3b">Hosting:</strong> Es el lugar donde vivirá tu nuevo sitio web, también llamado host o alojamiento, y permite que tu sitio web esté disponible 24/7. El hosting es un espacio de almacenamiento virtual dentro un servidor. </p>
                 <p>
-                  <strong> Servidor web:</strong> Es una máquina o equipo físico conectado a la Internet, generalmente cuenta con un espacio de almacenamiento bastante grande y características técnicas muy avanzadas a nivel de memoria RAM, sistemas de seguridad, etc. que podrían resultar bastante costosas si uno lo contrata de forma dedicada, por este motivo, se divide en diferentes espacios llamados hostings. <br><br>
+                  <strong style="color:#071c3b"> Servidor web:</strong> Es una máquina o equipo físico conectado a la Internet, generalmente cuenta con un espacio de almacenamiento bastante grande y características técnicas muy avanzadas a nivel de memoria RAM, sistemas de seguridad, etc. que podrían resultar bastante costosas si uno lo contrata de forma dedicada, por este motivo, se divide en diferentes espacios llamados hostings. <br><br>
                   Podríamos considerar que el servidor es un armario completo y el hosting es un compartimiento o casillero de este servidor que cuenta con las características necesarias y un precio asequible para que nuestra web esté funcionando todo el tiempo. 
                 </p>
                 <p>
-                  <strong>Certificado de Seguridad SSL:</strong> Se trata de un certificado integral de seguridad, que autentifica la identidad de tu nuevo sitio web y cifra con tecnología SSL la información que se envía al servidor.
+                  <strong style="color:#071c3b">Certificado de Seguridad SSL:</strong> Se trata de un certificado integral de seguridad, que autentifica la identidad de tu nuevo sitio web y cifra con tecnología SSL la información que se envía al servidor.
                 </p>
               </div>
             </div> 
@@ -235,7 +235,7 @@
       </div>
     </div>
 
-    <div class="type-marketing__types">
+    <div class="type-marketing__types container">
       <div class="type-marketing__title">
         <h3> ¿Qué es el desarrollo de una página web? </h3>
       </div>
@@ -253,7 +253,7 @@
 
 
 <section class="py-5">
-  <div class="type-marketing type-audio padding-rl">
+  <div class="type-marketing type-audio container">
     <div class="subtitle-general">
       <h2>Su sitio web no es una rueda suelta en Internet</h2>
     </div>
@@ -301,7 +301,7 @@
 
 
 <section class="py-4">
-	<div class="audiencia-audio creacion desarrollo">
+	<div class="audiencia-audio creacion desarrollo ">
 		<div class="subtitle-general">
 	    	<h2> ¿Cuánto tiempo se demorar el diseño y desarrollo de un sitio web?</h2>
 	    </div>
@@ -373,7 +373,7 @@
 </section> -->
 
 
-<div class="section-text">
+<div class="section-text container">
   <div class="subtitle-general">
       <h2>¿Cuánto cuesta una página web?<h2>
     </div>
@@ -387,7 +387,7 @@
 </div>
 
 
-<div class="section-text">
+<div class="section-text container">
   <div class="subtitle-general">
       <h2>Apunte final </h2>
     </div>

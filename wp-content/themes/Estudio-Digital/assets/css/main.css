@@ -1828,10 +1828,13 @@ background: linear-gradient(180deg, rgba(70,124,255,1) 0%, rgba(66,130,255,1) 10
   }
   .section-text-audio .tools-audio-content__text--text ul{
   	list-style: none;
-  	padding: 0;
+  	padding: 0.5rem;
   }
   .section-text-audio .tools-audio-content__text--text ul li{
   	margin: .5rem 0;
+  }
+  .section-text-audio .tools-audio-content__text--text ul li i{
+  	color: #91c000;
   }
   .type-audio .type-marketing__list{
   	justify-content: start;
@@ -1844,4 +1847,7 @@ background: linear-gradient(180deg, rgba(70,124,255,1) 0%, rgba(66,130,255,1) 10
   }
   .main-audiencia-audio.main-aliados::before, .main-audiencia-audio.main-aliados::after{
   	display: none;
+  }
+  .dev-strong{
+  	color: #071c3b;
   }
