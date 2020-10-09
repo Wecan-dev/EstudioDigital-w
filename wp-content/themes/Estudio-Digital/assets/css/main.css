@@ -1906,3 +1906,8 @@ background: linear-gradient(180deg, rgba(70,124,255,1) 0%, rgba(66,130,255,1) 10
   .dev-strong{
   	color: #071c3b;
   }
+  .main-banner__title h1 ul li, .main-banner__title h1 ul li a{
+  	font-size: 1.5rem;
+  	color: #91c000;
+  	line-height: 2;
+  }

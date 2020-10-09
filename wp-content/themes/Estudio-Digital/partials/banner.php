@@ -1,11 +1,11 @@
-<?php $args = array( 'post_type' => 'Banner', 'posts_per_page' => 1);?>   
-<?php $loop = new WP_Query( $args ); ?>
-<?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 
 <section class="pb-5">
   <div class="banner">
     <div class="main-banner">
       <div class="main-banner__content">
+        <?php $args = array( 'post_type' => 'Banner');?>   
+        <?php $loop = new WP_Query( $args ); ?>
+        <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="main-banner__item">
           <div class="main-banner__text">
             <div class="main-banner__title title-general">
@@ -26,9 +26,8 @@
             <a class="btn btn-banner btn-banner-respon"  href="#">Hablemos de tu proyecto <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
           </div>
         </div>
+        <?php endwhile; ?>
       </div>
     </div>
   </div>
 </section>
-
-<?php endwhile; ?>
