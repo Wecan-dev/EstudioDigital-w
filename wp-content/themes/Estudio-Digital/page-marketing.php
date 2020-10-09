@@ -83,7 +83,7 @@
 </section>
 
 
-<div class="section-text">
+<div class="section-text container">
   <div class="subtitle-general">
       <h2>¿Cómo funciona el Marketing Digital?</h2>
     </div>
@@ -117,8 +117,8 @@
 </section>
 
 
-<section class="py-4">
-  <div class="marketing-steps padding-rl">
+<section class="py-4 ">
+  <div class="marketing-steps container">
     <div class="main-marketing-steps">
       <div class="subtitle-general">
         <h2>¿Por qué hacer marketing digital?</h2>
@@ -227,7 +227,7 @@
 
 
 <section class="py-4">
-  <div class="marketing-steps padding-rl">
+  <div class="marketing-steps container">
     <div class="main-marketing-steps">
       <div class="subtitle-general">
         <h2> ¿Qué obtienes al desarrollar tu marketing digital con nosotros? </h2>
@@ -255,7 +255,7 @@
 </section>
 
 <section class="py-4">
-  <div class="type-marketing padding-rl">
+  <div class="type-marketing container">
     <div class="subtitle-general">
       <h2>Tipos de Marketing digital</h2>
     </div>
@@ -358,7 +358,7 @@
   </div>
 </section>
 
-<div class="section-text">
+<div class="section-text container">
   <div class="subtitle-general">
       <h2> Otros tipos de marketing que debes considerar. <h2>
     </div>
@@ -378,7 +378,7 @@
     </div>
 </div>
 
-<div class="section-text">
+<div class="section-text container">
   <div class="subtitle-general">
       <h2> ¿Quiénes se favorecen del  Marketing Digital? </h2>
     </div>
@@ -389,7 +389,7 @@
 </div>
 
 
-<div class="section-text">
+<div class="section-text container">
   <div class="subtitle-general">
       <h2> Tiempo y costos del servicio de marketing digital </h2>
     </div>

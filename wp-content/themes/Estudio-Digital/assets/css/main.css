@@ -164,7 +164,7 @@
 body{
 	font-family: 'Poppins';
 	background: #fff;
-	color: #071c3b;
+	color: #505050;
 }
 
 .padding-rl{
@@ -350,7 +350,7 @@ p{
 }
 .hacemos-content__text{
 	font-size: 18px;
-	color: #071c3b;
+	color: #505050;
 	padding: 5rem 15rem;
 	text-align: center;
 }
@@ -367,7 +367,7 @@ p{
 	border: 1px solid #71717126;
 	margin: 1.5rem 0;
 	transition: .3s ease-in-out;
-	color: #071c3b;
+	color: #505050;
 }
 
 .card-hacemos__content:hover{
@@ -391,6 +391,7 @@ p{
 	font-size: 20px;
 	font-weight: 600;
 	text-transform: uppercase;
+	color: #071c3b;
 }
 .card-hacemos__text--text{
 	opacity: .8;
@@ -551,6 +552,7 @@ p{
 	font-weight: 700;
 	margin-top: .4rem;
 	text-transform: uppercase;
+	color: #071c3b;
 }
 .comentarios-slider__content .slick-list.draggable{
 	padding: 1rem 10rem 1rem 0 !important;
@@ -1474,7 +1476,7 @@ background: linear-gradient(180deg, rgba(70,124,255,1) 0%, rgba(66,130,255,1) 10
   .main-banner__subtitle--serv.main-banner__title p{
   	font-size: 1.2rem;
   	line-height: initial;
-  	color: #071c3b;
+  	color: #505050;
   }
   .banner-serv .main-banner__title h1{
   	font-size: 4rem;
@@ -1645,7 +1647,7 @@ background: linear-gradient(180deg, rgba(70,124,255,1) 0%, rgba(66,130,255,1) 10
   	padding: 0 3rem ;
   }
   .main-ecommerce .audiencia-audio-content__text--text{
-  	color:  #071c3b;
+  	color:  #505050;
   }
   .main-tools-ecommerce{
   	display: grid;
@@ -1694,7 +1696,7 @@ background: linear-gradient(180deg, rgba(70,124,255,1) 0%, rgba(66,130,255,1) 10
   	color: #071c3b;
   }
   .main-marketing-steps .card-hacemos__text--text, .section-text .card-hacemos__text--text {
-  	color: #071c3b;
+  	color: #505050;
   	opacity: 1;
   	display: flex;
   	flex-wrap: wrap;
@@ -1731,7 +1733,7 @@ background: linear-gradient(180deg, rgba(70,124,255,1) 0%, rgba(66,130,255,1) 10
   }
   .subtitle-marketing-steps{
 	font-size: 1.2rem;
-	color: #071c3b;
+	color: #505050;
 	text-align: center;
 	margin: 4rem 0;
 	padding: 0 15rem;
@@ -1800,7 +1802,8 @@ background: linear-gradient(180deg, rgba(70,124,255,1) 0%, rgba(66,130,255,1) 10
   	padding: 1.5rem 0;
   }
   .type-marketing__title h3, .type-marketing__title{
-  	font-size: 2rem
+  	font-size: 2rem;
+  	color: #071c3b;
   }
   .type-marketing__text{
   	font-size: 1.1rem;
