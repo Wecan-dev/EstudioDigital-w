@@ -49,6 +49,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri();?>/assets/img/favicon-32x32.png">
+  <?php wp_head(); ?>
 </head>
 <body>
 
@@ -56,11 +57,11 @@
   <div class="top-nav <?php if(is_home()){echo 'top-nav-bg';} ?>">
     <div class="top-nav__content padding-rl">
       <div class="link-email">
-        <a href="#">marketing@sigmasoft.co</a>
+        <a target="_blank" href="mailto:marketing@sigmasoft.co">marketing@sigmasoft.co</a>
         <?php if ( wp_is_mobile() ) : ?>
-          <a href="https://api.whatsapp.com/send?phone=573002976970">+57 300 2976970</a>
+          <a  href="https://api.whatsapp.com/send?phone=573002976970">+57 300 2976970</a>
         <?php else : ?>
-          <a href="https://web.whatsapp.com/send?phone=573002976970">+57 300 2976970</a>
+          <a target="_blank" href="https://web.whatsapp.com/send?phone=573002976970">+57 300 2976970</a>
         <?php endif; ?>
         
       </div>
@@ -135,7 +136,7 @@
         <a class="nav-link "href="#">blog</a>
       </li>-->
       <li class="nav-item">
-        <a class="nav-link "href="#">contacto</a>
+        <a class="nav-link "href="#" data-toggle="modal" data-target="#ModalContacto">contacto</a>
       </li>
 		</ul>
     <div class="link-redes  d-block d-lg-none">
@@ -161,3 +162,23 @@
       </div>
 	</nav>
 </header>
+
+<!-- Modal Contacto -->
+<div class="modal fade" id="ModalContacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="main-modal__form">
+          <center class="mt-2">
+            <h2>Contáctanos</h2>
+          </center>
+          <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 2, 'title' => false, 'description' => false ) ); ?>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>

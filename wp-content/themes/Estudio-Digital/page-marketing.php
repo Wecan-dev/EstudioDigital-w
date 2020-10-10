@@ -17,7 +17,7 @@
             </div>
             
             <div class="boton-banner d-none d-lg-flex">
-              <a class="btn btn-banner btn-general" href="#">Contacto</a>
+              <a class="btn btn-banner btn-general" href="#" data-toggle="modal" data-target="#ModalContacto">Contacto</a>
             </div>
           </div>
           <div class="main-banner__img">
@@ -46,7 +46,7 @@
             </div>
             
             <div class="boton-banner d-none d-lg-flex">
-              <a class="btn btn-banner btn-general" href="#">Contacto</a>
+              <a class="btn btn-banner btn-general" href="#" data-toggle="modal" data-target="#ModalContacto">Contacto</a>
             </div>
           </div>
           <div class="main-banner__img">
@@ -70,7 +70,7 @@
             </div>
             
             <div class="boton-banner d-none d-lg-flex">
-              <a class="btn btn-banner btn-general" href="#">Contacto</a>
+              <a class="btn btn-banner btn-general" href="#" data-toggle="modal" data-target="#ModalContacto">Contacto</a>
             </div>
           </div>
           <div class="main-banner__img">
@@ -117,7 +117,7 @@
             <?php else : ?>
               <a class="btn btn-agencia-audio"  href="https://web.whatsapp.com/send?phone=573002976970" > <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp  </a>
             <?php endif; ?>
-          	<a href="">Contacto</a>
+          	<a href="" data-toggle="modal" data-target="#ModalContacto">Contacto</a>
           </div>
         </div>
       </div>
@@ -419,12 +419,8 @@
 			<div class="subtitle-general">
 		    	<p>Formulario de contacto</p>
 		    </div>
-		    <div class="main-form-audio__content">
-		    	<input type="email" placeholder="Correo">
-		    	<a>marketing digital</a>
-		    	<input type="text" placeholder="Nombre y Apellido">
-		    	<textarea name="" id="" cols="30" rows="6" placeholder="Mensaje"></textarea>
-		    	<button type="">Enviar</button>
+        <div class="main-form-audio__content">
+          <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3, 'title' => false, 'description' => false ) ); ?>
 		    </div>
 		</div>
 	</div>
