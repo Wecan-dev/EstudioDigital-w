@@ -12,7 +12,7 @@
             </div>
             
             <div class="boton-banner d-none d-lg-flex">
-              <a class="btn btn-banner btn-general" href="#">Contacto</a>
+              <a class="btn btn-banner btn-general" href="#" data-toggle="modal" data-target="#ModalContacto">Contacto</a>
             </div>
             <div class="main-banner__subtitle--serv main-banner__title">
             	<p></p>
@@ -25,7 +25,11 @@
             </div>
           </div>
           <div class="boton-banne d-block d-lg-none">
-            <a class="btn btn-banner btn-banner-respon"  href="#">Hablemos de tu proyecto <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
+            <?php if ( wp_is_mobile() ) : ?>
+              <a class="btn btn-banner btn-banner-respon"  href="https://api.whatsapp.com/send?phone=573002976970">Hablemos de tu proyecto <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
+            <?php else : ?>
+              <a class="btn btn-banner btn-banner-respon"  href="https://web.whatsapp.com/send?phone=573002976970">Hablemos de tu proyecto <i class="fa fa-whatsapp" aria-hidden="true"></i> </a>
+            <?php endif; ?>
           </div>
         </div>
       </div>
@@ -57,8 +61,14 @@
           <h3>Hablemos YA</h3>
           <p>del crecimiento de tu empresa online</p>
           <div class="agencia-content__text--btn">
-          	<a class="btn btn-agencia-audio"  href="#" > <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp  </a>
-          	<a href="">Contacto</a>
+            <?php if ( wp_is_mobile() ) : ?>
+              <a class="btn btn-agencia-audio"  href="https://api.whatsapp.com/send?phone=573002976970" > <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp  </a>
+            <?php else : ?>
+              <a class="btn btn-agencia-audio"  href="https://web.whatsapp.com/send?phone=573002976970" > <i class="fa fa-whatsapp" aria-hidden="true"></i> Whatsapp  </a>
+            <?php endif; ?>
+              
+            
+          	<a href="" data-toggle="modal" data-target="#ModalContacto">Contacto</a>
           </div>
         </div>
       </div>
@@ -408,12 +418,8 @@
 			<div class="subtitle-general">
 		    	<p>Formulario de contacto</p>
 		    </div>
-		    <div class="main-form-audio__content">
-		    	<input type="email" placeholder="Correo">
-		    	<a>desarrollo web</a>
-		    	<input type="text" placeholder="Nombre y Apellido">
-		    	<textarea name="" id="" cols="30" rows="6" placeholder="Mensaje"></textarea>
-		    	<button type="">Enviar</button>
+        <div class="main-form-audio__content">
+          <?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3, 'title' => false, 'description' => false ) ); ?>
 		    </div>
 		</div>
 	</div>

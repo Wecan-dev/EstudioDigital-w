@@ -79,3 +79,4 @@ function callback(entries, observer) {
 }
 const observer = new IntersectionObserver(callback, options)
 observer.observe($video)
+

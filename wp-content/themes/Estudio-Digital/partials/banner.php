@@ -13,8 +13,15 @@
             </div>
             
             <div class="boton-banner d-none d-lg-flex">
-              <a class="btn btn-banner btn-secun"  href="#hacemos">Aprende más</a>
-              <a class="btn btn-banner btn-general" href="#">Comienza ahora</a>
+              <?php $primer_boton = get_field( 'primer_boton' ); ?>
+              <?php if ( $primer_boton ) : ?>
+                <a class="btn btn-banner btn-secun" href="<?php echo esc_url( $primer_boton['url'] ); ?>" target="<?php echo esc_attr( $primer_boton['target'] ); ?>"><?php echo esc_html( $primer_boton['title'] ); ?></a>
+              <?php endif; ?>
+              <?php $segundo_boton = get_field( 'segundo_boton' ); ?>
+              <?php if ( $segundo_boton ) : ?>
+                <a class="btn btn-banner btn-general"  data-toggle="modal" data-target="#ModalContacto" href="<?php echo esc_url( $segundo_boton['url'] ); ?>" target="<?php echo esc_attr( $segundo_boton['target'] ); ?>"><?php echo esc_html( $segundo_boton['title'] ); ?></a>
+              <?php endif; ?>
+
             </div>
           </div>
           <div class="main-banner__img">
