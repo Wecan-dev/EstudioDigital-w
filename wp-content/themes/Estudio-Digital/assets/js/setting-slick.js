@@ -103,7 +103,7 @@ $('.main-banner__content').slick({
     breakpoint: 600,
     settings: {
       slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToScroll: 0,
       dots: false,
       autoplay:false,
     }

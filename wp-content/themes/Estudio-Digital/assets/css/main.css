@@ -1047,6 +1047,7 @@ p{
 }
 .blog-slider__img img{
 	border-radius: 5px;
+	height: 100%;
 }
 .main-blog__content .slick-dots li.slick-active button:before{
 	width: 40px;

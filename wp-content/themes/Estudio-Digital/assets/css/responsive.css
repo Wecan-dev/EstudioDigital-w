@@ -472,6 +472,18 @@
 	.tools-marketing .tools-audio-content__icons--content2 img{
 		width: 120px;
 	}
+	#myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close{
+		right: 10px;
+		z-index: 9;
+	}
+}
+@media (min-width: 0px) and (max-width: 340px){
+	.navbar-brand img{
+		width: 230px;
+	}
+	.offcanvas-collapse.open{
+		top: 75px;
+	}
 }
 
 
