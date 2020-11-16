@@ -1047,6 +1047,7 @@ p{
 }
 .blog-slider__img img{
 	border-radius: 5px;
+	height: 100%;
 }
 .main-blog__content .slick-dots li.slick-active button:before{
 	width: 40px;
@@ -1665,6 +1666,11 @@ background: linear-gradient(180deg, rgba(70,124,255,1) 0%, rgba(66,130,255,1) 10
   	color: #fff;
   	text-transform: uppercase;
   	font-weight: 600;
+  	transition: .3s ease-in-out;
+  }
+  .main-form-audio__content button:hover{
+  	background: #071c3b;
+  	transition: .3s ease-in-out;
   }
   .form-audio{
   	padding: 6rem 0;

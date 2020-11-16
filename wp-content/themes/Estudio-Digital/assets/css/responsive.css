@@ -171,7 +171,7 @@
 	}
 	.slider-comentario__card{
 		flex-direction: column;
-		height: 440px;
+		height: auto;
 	}
 	.slider-comentario__card--img{
 		width: 120px;
@@ -429,9 +429,10 @@
 	}
 	.main-marketing-steps .card-hacemos__text--text p, .type-marketing__text .card-hacemos__text--text p, .section-text .card-hacemos__text--text p{
 		width: 100%;
+		text-align: start;
 	}
 	.text-card__steps{
-		text-align: justify;
+		text-align: start;
 	}
 	.marketing .main-ecommerce{
 		padding: 1rem;
@@ -471,6 +472,26 @@
 	}
 	.tools-marketing .tools-audio-content__icons--content2 img{
 		width: 120px;
+	}
+	#myModal .modal-content .close, #myModal1 .modal-content .close, #myModal2 .modal-content .close{
+		right: 1rem;
+		top: 1rem;
+		z-index: 9;
+	}
+	.subtitle-footer{
+		font-size: 1.2rem;
+	}
+	body > section:nth-child(5) > div > div > div.subtitle-marketing-steps{
+		margin-bottom: 2.5rem;
+	}
+
+}
+@media (min-width: 0px) and (max-width: 340px){
+	.navbar-brand img{
+		width: 230px;
+	}
+	.offcanvas-collapse.open{
+		top: 75px;
 	}
 }
 
@@ -585,6 +606,7 @@
 	}
 	.content-aliados__items{
 		padding: .5rem;
+		width: 17%;
 	}
 	.servicio{
 		padding: 0;
@@ -753,6 +775,23 @@
 	.marketing .audiencia-audio-content__text--text{
 		padding: 0;
 	}
+
+	.nav-link{
+		padding: 1rem 0;
+	}
+	.nav-item{
+		padding: 0;
+	}
+	.btn-banner-respon{
+		position: absolute;
+		bottom: 5%;
+	}
+	.main-comentarios{
+		grid-template-columns: 30% 70%;
+	}
+	.slider-comentario__card{
+		height: auto;
+	}
 }
 
 
@@ -817,6 +856,12 @@
 	}
 	.banner-dev .main-banner__text{
 		padding-right: 0;
+	}
+	.content-footer__redes--content{
+		padding: 1rem 0;
+	}
+	.slider-comentario__card{
+		height: auto;
 	}
 }
 

@@ -1,6 +1,3 @@
-
-
-
 <section id="Portafolio">
   <div class="portafolio">
     <div class="main-portafolio padding-rl">
@@ -28,20 +25,28 @@
         <?php $contador++; ?>
         <?php endwhile; ?>
         </div>
-        <div class=" slider-portafolio__responsive d-block d-lg-none">
-          <?php $args = array( 'post_type' => 'Portafolio');?>   
+        <div class="slider-portafolio__responsive d-block d-lg-none">
+        <?php $args = array( 'post_type' => 'Portafolio');?>   
           <?php $loop = new WP_Query( $args ); ?>
+          <?php $contador = 1; ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
-            <div class="content-portafolio__items">
-              <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
-              <a onclick="openModal();currentSlide()"  class="btn btn-portafolio"><?php the_title(); ?></a>
-              <a onclick="openModal();currentSlide()"  class="btn btn-portafolio-s">Ver más</a>
-            </div>
+        <div class="content-portafolio__items">
+          <div class="content-portafolio__items--img">
+            <?php if(get_the_post_thumbnail_url()): ?>
+            <a onclick="openModal();currentSlide(<?php echo $contador ?>)" class="single-slider__img"><img src="<?php echo get_the_post_thumbnail_url(); ?>"></a>
+            <?php else: ?>
+            <?php endif ?>
+          </div>  
+          <a onclick="openModal();currentSlide(<?php echo $contador ?>)"  class="btn btn-portafolio"><?php the_title(); ?></a>
+          <a onclick="openModal();currentSlide(<?php echo $contador ?>)"  class="btn btn-portafolio-s">Ver más</a>
+        </div>
+        <?php $contador++; ?>
         <?php endwhile; ?>
-      </div>
+        </div>
     </div>
   </div>
 </section>
+
 
 <div id="myModal" class="modal" tabindex="-1" role="dialog">
   <div class="modal-lg">
