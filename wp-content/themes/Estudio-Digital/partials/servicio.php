@@ -9,7 +9,7 @@
           <?php $loop = new WP_Query( $args ); ?>
           <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
         <div class="content-servicio__items">
-          <a href="#" class="item-service">
+          <a href="#/" class="item-service">
             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
             <div class="item-service__text">
               <p> <?php the_title(); ?></p>

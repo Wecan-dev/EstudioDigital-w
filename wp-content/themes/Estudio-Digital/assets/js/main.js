@@ -80,7 +80,6 @@ function callback(entries, observer) {
 const observer = new IntersectionObserver(callback, options)
 observer.observe($video)
 
-
 function openModal() {
   document.getElementById("myModal").style.display = "block";
 }

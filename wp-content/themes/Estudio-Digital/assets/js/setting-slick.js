@@ -28,7 +28,7 @@ $('.main-banner__content').slick({
     breakpoint: 600,
     settings: {
       slidesToShow: 1,
-      slidesToScroll: 1,
+      slidesToScroll: false,
       dots: false,
       autoplay:false,
     }

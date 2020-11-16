@@ -1,3 +1,6 @@
+
+
+
 <section id="Portafolio">
   <div class="portafolio">
     <div class="main-portafolio padding-rl">
@@ -43,10 +46,6 @@
         <?php $contador++; ?>
         <?php endwhile; ?>
         </div>
-    </div>
-  </div>
-</section>
-
 
 <div id="myModal" class="modal" tabindex="-1" role="dialog">
   <div class="modal-lg">
