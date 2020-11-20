@@ -17,7 +17,7 @@
 </section>
 
 
-<section>
+<!-- <section>
   <div class="contenido">
     <div class="main-contenido">
       <div class="subtitle-general">
@@ -37,4 +37,4 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->

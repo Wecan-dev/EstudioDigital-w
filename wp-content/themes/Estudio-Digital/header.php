@@ -113,24 +113,15 @@
           servicios
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="<?php bloginfo('url'); ?>/marketing">Marketing Digital</a>
           <a class="dropdown-item" href="<?php bloginfo('url'); ?>/desarrollo">Desarrollo Web</a>
+          <a class="dropdown-item" href="<?php bloginfo('url'); ?>/marketing">Marketing Digital</a>
           <a class="dropdown-item" href="<?php bloginfo('url'); ?>/ecommerce">Comercio Electronico</a>
           <a class="dropdown-item" href="<?php bloginfo('url'); ?>/audio-visual">Producción Audiovisual</a>
           <a class="dropdown-item" href="<?php bloginfo('url'); ?>/creacion-de-marca">Creación de Marca</a>
         </div>
       </li>
 			<li class="nav-item">
-				<a class="nav-link "href="<?php bloginfo('url'); ?>/desarrollo/#dominio">host y dom</a>
-			</li>
-      <li class="nav-item">
-        <a class="nav-link "href="#Aliados">partners</a>
-      </li>
-			<li class="nav-item">
         <a class="nav-link "href="#Portafolio">portafolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link "href="#">metodo ed</a>
       </li>
       <!--<li class="nav-item">
         <a class="nav-link "href="#">blog</a>

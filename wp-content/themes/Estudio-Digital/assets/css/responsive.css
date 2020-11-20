@@ -481,8 +481,14 @@
 	.subtitle-footer{
 		font-size: 1.2rem;
 	}
+	#header{
+		position: absolute;
+	}
 	body > section:nth-child(5) > div > div > div.subtitle-marketing-steps{
 		margin-bottom: 2.5rem;
+	}
+	.slider-comentario__card--text p{
+		font-size: .9rem;
 	}
 
 }
@@ -862,6 +868,12 @@
 	}
 	.slider-comentario__card{
 		height: auto;
+	}
+	.main-banner__text{
+		top: 0;
+	}
+	.main-brand img{
+		width: 230px;
 	}
 }
 
